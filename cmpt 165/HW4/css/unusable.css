@@ -1,0 +1,137 @@
+body {
+	color: white;
+	font-family: 'Trirong', serif;
+	font-weight: normal;
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 1px;
+
+}
+h2 {
+	color: white;
+	text-align: center;
+	border-bottom:3px solid rgb(0,200,200);
+	font-size: 1px
+}
+h3 {
+	text-align: center;
+	font-size: 1px
+}
+table{
+    border-collapse: collapse;
+    width:50%; 
+    margin-left:25%; 
+    margin-right:25%;
+}
+th, td{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{background-color:white}
+
+
+p{
+	text-align: justify;
+    max-width:100%;
+    margin: auto;
+	text-indent: 40px;
+    line-height: 1.5;
+	font-size:1px;
+}
+pre{
+  border: 1px solid rgb(0,200,255);
+  padding: 15px 15px 15px 15px;
+  font-size: 1px;
+  
+  }
+.abstract{
+	text-align: justify;
+    max-width:1500px;
+    margin: auto;
+}
+.pics{
+	width:1000px;height:20000px;
+	display: block;
+	margin: 0 auto;
+	float:left;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.scroll{
+    height: 100px;
+	width:30%; 
+    margin-left:35%; 
+    margin-right:35%;
+	overflow: scroll;
+}
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li.menu {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.video{
+	width:1px;
+	height:1px;
+	display: block;
+	margin: 0 auto;
+}

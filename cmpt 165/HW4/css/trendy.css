@@ -1,0 +1,139 @@
+body {
+	color: rgb(255,150,200);
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	background-image: url("backgrounds/trendy.png");
+    background-repeat: no-repeat;
+    background-position: right;
+	background-attachment: fixed;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 35px;
+}
+h1 {
+	color: rgb(255,150,200);
+	text-align: center;
+	font-size: 50px;
+
+}
+h2 {
+	color: rgb(255,150,200);
+	text-align: center;
+	border-bottom:3px solid rgb(200,0,200);
+	font-size: 40px
+}
+h3 {
+	text-align: center;
+	font-size: 37px
+}
+table{
+    border-collapse: collapse;
+    width:50%; 
+    margin-left:25%; 
+    margin-right:25%;
+}
+th, td{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{background-color:rgb(150,255,0)}
+
+
+p{
+	text-align: justify;
+    max-width:100%;
+    margin: auto;
+	text-indent: 40px;
+    line-height: 1.5;
+}
+pre{
+  border: 1px solid rgb(0,200,255);
+  padding: 15px 15px 15px 15px;
+  font-size: 30px;
+  
+  }
+.abstract{
+	text-align: justify;
+    max-width:1500px;
+    margin: auto;
+}
+.pics{
+	width:500px;height:400px;
+	display: block;
+	margin: 0 auto;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.scroll{
+    height: 100px;
+	width:30%; 
+    margin-left:35%; 
+    margin-right:35%;
+	overflow: scroll;
+}
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,150,200);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,150,200);
+}
+
+li.menu {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(0,70,100);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255,150,200);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255,150,200);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: rgb(0,70,100);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(255,150,200)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.video{
+	width:560px;
+	height:315px;
+	display: block;
+	margin: 0 auto;
+}

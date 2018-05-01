@@ -1,0 +1,15 @@
+
+			padding: 0;
+			margin: 0px;
+		}
+		.num{
+			font-size: 45px;
+			width: 45px
+			height:40px;
+			font-weight: bold;
+			border: solid 1px blue;
+			color: red;
+		}
+		.num:hover{
+			background: red;
+

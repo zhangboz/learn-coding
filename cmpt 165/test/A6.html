@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="ex.js"> </script>
+
+<h2 id = "title1"> Name</h1>
+
+<form id="form_name" action="">
+  <input id = 'tbx' type="text" name="name" value="">
+</form> 
+
+<h2 id = "title2"> Gender</h2>
+<form id="gender" action="">
+  <input type="radio" name="gender" value="Male"> Male<br>
+  <input type="radio" name="gender" value="Female"> Female<br>
+  <input type="radio" name="gender" value="Other"> Other
+</form>
+<h2 id = "title3"> Age</h2>
+<form id="age" action="">
+  <input type="radio" name="age"  value="15 or younger"> 15 or younger<br>
+  <input type="radio" name="age"  value="16-20"> 16-20<br>
+  <input type="radio" name="age" value="20-25"> 20-25<br>
+  <input type="radio" name="age" value="26 or older"> 26 or older 
+</form>
+<h2 id = "title4"> Major</h2>
+
+<form id="major" action="">
+  <input type="radio" name="major"  value="Computer Science"> Computer Science<br>
+  <input type="radio" name="major"  value="">Other 
+  
+  <input id = "rb3" type="text" name="other" />
+
+</form>
+
+</p><button id = "submit" onclick="store_data()"> Submit</button></p>
+<p id="result"></p>
+<p><button onclick="end_vote()" > End Vote</button></p>
+<p id = "dis"><button id= "dis_button" onclick="display()"> Display Vote Results</button></p>
+
+
+<table id = "table">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+	<th>Major</th>
+
+  </tr>
+</table>
+
+
+
+</body>
+</html>
