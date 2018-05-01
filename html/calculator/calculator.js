@@ -1,18 +1,19 @@
+    var result = "";
+// need to define global variable because if "var result" is 
+// inside the "calculate()" function, every excution of it 
+// would've made "result" = "", and add a single number 
+// to it, so we will never get an extending string
     function calculate(){
-      var result = "";
-
-      var finalresult = "";
-
-      result+=event.srcElement.innerText;
-
+      click = event.srcElement.innerText;
+      if (click == "c"){
+        result = "";
+      }
+      else
+      {result += click;}
       display.innerText=result;
-
     }
 
     function calculateresult(){
-
-      finalresult=eval(result);
-
-      display.innerText=finalresult;
-
+       display.innerText=eval(result);
     }
+   

@@ -7,7 +7,7 @@ for (i=0; i<len; i++)
 	if (vb1[i].checked)
 	{
 		var gvar = vb1[i]
-	}
+	}//gvar is global variable
 }	
 return gvar
 }
