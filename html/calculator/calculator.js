@@ -1,5 +1,5 @@
     function calculate(){
-      var result = "";
+      var gvar result = "";
 
       var finalresult = "";
 
@@ -14,5 +14,9 @@
       finalresult=eval(result);
 
       display.innerText=finalresult;
+
+    }
+
+    function store_number(){
 
     }

@@ -6,8 +6,8 @@ for (i=0; i<len; i++)
 {
 	if (vb1[i].checked)
 	{
-		var gvar = vb1[i]
-	}
+		var gvar = vb1[i] 
+	}// "var gvar" is global variable that can be used cross functions.
 }	
 return gvar
 }
@@ -90,8 +90,7 @@ if (localStorage.clickcount) {
 	document.getElementById("title2").innerHTML = "";
 	document.getElementById("title3").innerHTML = "";
 	document.getElementById("title4").innerHTML = "";
-
-document.getElementById("result").innerHTML = localStorage.clickcount + " sets of data are now stored.";
+	document.getElementById("result").innerHTML = localStorage.clickcount + " sets of data are now stored.";
 }
 
 
