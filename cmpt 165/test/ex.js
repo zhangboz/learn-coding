@@ -6,8 +6,13 @@ for (i=0; i<len; i++)
 {
 	if (vb1[i].checked)
 	{
+<<<<<<< HEAD
 		var gvar = vb1[i] 
 	}// "var gvar" is global variable that can be used cross functions.
+=======
+		var gvar = vb1[i]
+	}//gvar is global variable
+>>>>>>> 8d6b712880e45f780140607ee90c32bc9bc7a8f7
 }	
 return gvar
 }

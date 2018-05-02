@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 		*{
 			padding: 0;
 			margin: 0px;
@@ -13,3 +14,31 @@
 		.num:hover{
 			background: red;
 
+=======
+    *{
+      padding: 0;
+      margin: 0px;
+    }
+    .num{
+      font-size: 45px;
+      width: 45px
+      height:40px;
+      font-weight: bold;
+      border: solid 1px blue;
+      color: red;
+    }
+    .num:hover{
+      background: red;
+    }
+button {
+    border: solid 1px blue;
+    color: red;
+    padding: 0px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+>>>>>>> 8d6b712880e45f780140607ee90c32bc9bc7a8f7
